@@ -1,0 +1,26 @@
+  * {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+  }
+
+  /* body {
+  } */
+  
+  .wrap {
+    max-width: 1440px;
+    border: 1px red solid;
+  }
+
+  .gallery {
+    width: 1248px;
+    height: 646px;
+  }
+  
+  .gallery__item {
+    height: 100%;
+    width: 100%;
+    background-image: url('assets/header__logo.jpeg');
+    display: flex;
+    flex-direction: column;
+  }
